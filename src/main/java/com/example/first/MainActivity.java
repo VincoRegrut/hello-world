@@ -18,5 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void lblLuckaClick( View v ) {
         ((TextView)findViewById( R.id.lblLucka )).setText( R.string.lblLucka_text );
         Toast.makeText( this, "The label was changed", Toast.LENGTH_LONG ).show();
+        
+        /* change for github */
     }
 }
